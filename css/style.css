@@ -17,11 +17,34 @@ a {
 
 ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 img {
     display: block;
     max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1128px;
+    /* padding-left: ;
+    padding-right: ;
+    margin-left: ;
+    margin-right:; */
+    margin: 0 auto;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .second-title {
@@ -42,14 +65,27 @@ img {
     font-size: 16px;
     line-height: 1.5;
 }
-/* /////////////////////header
- ////////////////////////*/
+/* /////////header/////*/
+header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.header-conteiner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-tumb {
+    display: flex;
+}
+
 .logo {
     font-family: Raleway;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16;
     color: #2E2F42;
+    margin-right: 76px;
 }
 .logo-decor {
     color: #4D5AE5;
@@ -60,6 +96,11 @@ img {
     font-size: 16px;
     line-height: 1.5;
 }
+
+.contact-list {
+    display: flex;
+}
+
 .header-contact {
     color: #434455;
     font-weight: 400;
@@ -67,15 +108,35 @@ img {
     line-height: 1.5;
 }
 
+.contact-list li:not(:last-child) {
+    margin-right: 40px;
+}
+
+.nav-list {
+    display: flex;
+}
+.nav-list li:not(:last-child) {
+    margin-right: 40px;
+}
 /* //////////////////////hero////// */
 .hero {
     background-color: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
+.hero-conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
 .main-title {
     color: #fff;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    margin-bottom: 48px;
 }
 .hero-button {
     background-color: #4D5AE5;
@@ -83,6 +144,9 @@ img {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    padding: 16px 32px;
+    border-radius: 4px;
+    border: none;
 }
 /* /////our team///////// */
 .our-team {
