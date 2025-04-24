@@ -1,0 +1,103 @@
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto;
+    color: #434455;
+    background-color: #fff;
+}
+
+a {
+   text-decoration: none; 
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.second-title {
+    color: #2E2F42;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+}
+.thirt-title {
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.text {
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+/* /////////////////////header
+ ////////////////////////*/
+.logo {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16;
+    color: #2E2F42;
+}
+.logo-decor {
+    color: #4D5AE5;
+}
+.item-link {
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.header-contact {
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* //////////////////////hero////// */
+.hero {
+    background-color: #2E2F42;
+}
+.main-title {
+    color: #fff;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+}
+.hero-button {
+    background-color: #4D5AE5;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+/* /////our team///////// */
+.our-team {
+    background-color: #F4F4FD;
+}
+.our-team-item {
+    background-color: #fff;
+}
+/* footer */
+.footer {
+    background-color: #2E2F42;
+}
+.footer-logo {
+    color: #F4F4FD;
+}
+.footer-text {
+    color: #F4F4FD;
+}
